@@ -208,7 +208,7 @@ const RubiksCube = () => {
             ) : (
                 <div className="controls-info">
                     <p>Use the arrow keys to rotate the cube.</p>
-                    <p>Use U, D, F, B, L, R, M, E, S keys for faces and middle layers.</p>
+                    <p>Use U, D, F, B, L, R, keys for faces and M, E, S keys for middle layers.</p>
                 </div>
             )}
             <style jsx>{`
