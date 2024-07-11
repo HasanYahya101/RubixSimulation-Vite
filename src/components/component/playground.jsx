@@ -3,12 +3,7 @@ import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight, RotateCcw, RotateCw,
 
 const COLORS = ['white', 'red', 'blue', 'orange', 'green', 'yellow'];
 
-const isDesktop = () => {
-    const userAgent = window.navigator.userAgent.toLowerCase();
-    const isMobile = /mobile|android|iphone|ipad|tablet|touch|samsung|fridge/i.test(userAgent);
-    const isSmallScreen = window.innerWidth <= 1024;
-    return !isMobile && !isSmallScreen;
-};
+const isTouchScreen = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
 
 const CubePiece = ({ position, colors }) => (
     <div className="cube-piece" style={{
@@ -187,7 +182,7 @@ const RubiksCube = () => {
                     ))}
                 </div>
             </div>
-            {isDesktop === false ? (
+            {isTouchScreen === true ? (
                 <div className="controls">
                     <div className="control-row">
                         <button onClick={() => rotateFace('U', 'clockwise')}><ChevronUp /></button>
