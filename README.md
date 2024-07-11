@@ -1,4 +1,4 @@
-# CalcWhiz (React + Vite)
+# Rubix Cube Simulation (React + Vite)
 
 ## Introduction
 
