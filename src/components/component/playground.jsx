@@ -187,7 +187,7 @@ const RubiksCube = () => {
                     ))}
                 </div>
             </div>
-            {!isDesktop ? (
+            {isDesktop === false ? (
                 <div className="controls">
                     <div className="control-row">
                         <button onClick={() => rotateFace('U', 'clockwise')}><ChevronUp /></button>
