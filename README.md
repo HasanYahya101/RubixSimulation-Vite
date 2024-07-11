@@ -12,10 +12,12 @@ Radix UI and ShadCN components were used to create the UI of the website. Moreov
 
 This project was deployed to Github Pages and can be tested there. No servers or databases were used in this Project.
 
-## Preview
-![Screenshot 2024-06-03 190119](https://github.com/HasanYahya101/CalcWhiz-Vite/assets/118683092/96d6d571-6c63-46ae-bade-c5fdb51d5631)
-![Screenshot 2024-06-03 190613](https://github.com/HasanYahya101/CalcWhiz-Vite/assets/118683092/e28dbb0a-7109-4408-b841-b89d6a426bc5)
-![Screenshot 2024-06-03 190622](https://github.com/HasanYahya101/CalcWhiz-Vite/assets/118683092/807d9f92-a6ad-4d1b-bf84-b20c593ca598)
+## Preview (Desktop)
+![Screenshot 2024-07-11 233518](https://github.com/HasanYahya101/RubixSimulation-Vite/assets/118683092/5b93fc55-6436-488f-b2ef-7dc8fbbc312a)
+![Screenshot 2024-07-11 233534](https://github.com/HasanYahya101/RubixSimulation-Vite/assets/118683092/794a69e7-4beb-40b0-a619-1a1ae590af2c)
+
+## Note:
+Desktop and Mobile are differentiated by the presence of a touch screen.
 
 ## React + Vite
 
