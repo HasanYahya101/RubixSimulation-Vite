@@ -184,7 +184,7 @@ const RubiksCube = () => {
                     ))}
                 </div>
             </div>
-            {!isTouchScreen === true ? (
+            {isTouchScreen === true ? (
                 <div className="controls bottom-8 right-auto left-auto z-40">
                     <div className="control-row">
                         <button onClick={() => rotateFace('U', 'clockwise')}><ChevronUp /></button>
