@@ -145,7 +145,7 @@ const RubiksCube = () => {
             const deltaX = touch.clientX - startX;
             const deltaY = touch.clientY - startY;
 
-            const rotationSpeed = 1.5;
+            const rotationSpeed = 1.8;
 
             setRotation({
                 x: startRotation.x - deltaY * rotationSpeed,
