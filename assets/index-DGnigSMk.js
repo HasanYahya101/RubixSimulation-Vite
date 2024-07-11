@@ -152,7 +152,7 @@ Error generating stack: `+o.message+`
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin-top: 40px;
+          margin-top: 50px;
         }
         .control-row {
           display: flex;
