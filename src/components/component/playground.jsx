@@ -177,7 +177,7 @@ const RubiksCube = () => {
     }, [rotation]);
 
     return (
-        <div className="page-container">
+        <div className="page-container min-h-screen h-full min-w-[100vw] w-full">
             <div className="rubiks-cube-container" ref={cubeRef}>
                 <div className="rubiks-cube" style={{
                     transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg) rotateZ(${rotation.z}deg)`
@@ -206,7 +206,7 @@ const RubiksCube = () => {
                     </div>
                 </div>
             ) : (
-                <div className="controls-info">
+                <div className="controls-info border border-black shadow-xl mt-2">
                     <p>Use the arrow keys to rotate the cube.</p>
                     <p>Use U, D, F, B, L, R, keys for faces and M, E, S keys for middle layers.</p>
                 </div>
@@ -218,12 +218,7 @@ const RubiksCube = () => {
           justify-content: center;
           align-items: center;
           height: 100vh;
-          background-color: #f0f0f0;
-          background-image: 
-            linear-gradient(45deg, #e0e0e0 25%, transparent 25%),
-            linear-gradient(-45deg, #e0e0e0 25%, transparent 25%),
-            linear-gradient(45deg, transparent 75%, #e0e0e0 75%),
-            linear-gradient(-45deg, transparent 75%, #e0e0e0 75%);
+          background-color: #ffffff;
           background-size: 20px 20px;
           background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
         }
