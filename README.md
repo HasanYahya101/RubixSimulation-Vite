@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a Rubix cube 3D Simulation Application. It allows you to rotate the Cube and its Rows and Columns. It is responsive on both Desktop and Mobile.
+This is a Rubix Cube 3D Simulation Application. It allows you to rotate the Cube and its Rows and Columns. It is responsive on both Desktop and Mobile.
 
 ## UI Library
 
